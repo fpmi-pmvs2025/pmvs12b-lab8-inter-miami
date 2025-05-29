@@ -3,6 +3,7 @@ androidGradlePlugin = "8.2.2"
 kotlin = "1.9.22"
 composeAndroidxBom = "2024.02.01"
 composeJB = "1.6.10"
+testng = "6.9.6"
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
@@ -25,3 +26,4 @@ jb-compose-ui = { group = "org.jetbrains.compose.ui", name = "ui", version.ref =
 jb-compose-foundation = { group = "org.jetbrains.compose.foundation", name = "foundation", version.ref = "composeJB" }
 jb-compose-material = { group = "org.jetbrains.compose.material", name = "material", version.ref = "composeJB" }
 jb-compose-tooling = { group = "org.jetbrains.compose.ui", name = "ui-tooling", version.ref = "composeJB" }
+testng = { group = "org.testng", name = "testng", version.ref = "testng" }
